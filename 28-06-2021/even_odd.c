@@ -6,7 +6,7 @@ Version:3.0
 */
 
 #include <stdio.h>
-#define even_odd(number) ((number^1==number+1)?1:0)
+#define even_odd(number) ((number&1)?1:0)
 int main()
 {
   int number;
